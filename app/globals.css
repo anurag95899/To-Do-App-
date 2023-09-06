@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}html,body{
+  width: 100%;
+  height: 100%;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(19, 166, 120);
+  position: relative;
+    
+}
+.content{
+  margin-left: 50px;
+  width: 50%;
+  height: 35%;
+  /* background-color: salmon; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.to-do-input{
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.to-do-input>h1{
+  width: 250px;
+  overflow: hidden;
+  /* background-color: red; */
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 1.5vw;
+  font-family: Gilroy;
+  font-weight: 500;
+  color: #ffff;
+}
+.to-do-input input{
+  width: 100%;
+  height: 30px;
+  border: 2px solid #111;
+  font-size: 1.2vw;
+  font-family: Gilroy;
+}
+.btn{
+  display: flex;
+  width: 100%;
+  height: 40%;
+  /* background-color: green; */
+  /* position: relative; */
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.add{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid #111;
+  color: blue;
+  cursor: pointer;
+}
+.delete{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid #111;
+  color: red;
+  cursor: pointer;
+}
+.wr-de-btn{
+  display: flex;
+  gap: 20px;
+  margin-top: 11px;
+  cursor: pointer;
+}
